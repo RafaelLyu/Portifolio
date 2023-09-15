@@ -380,6 +380,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .contact h2{
@@ -574,7 +575,7 @@ section{
     }
     
     .home{
-        padding: 10rem 3% 30rem;
+        padding: 10rem 3% 0;
     }
     .contact form .input-box input{
         width: 100%;
