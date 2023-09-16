@@ -57,7 +57,7 @@ body{
 }
 .header.sticky{
     background: var(--header-color);
-    box-shadow: 0 .1rem 0.5rem  var(--text-color);
+    box-shadow: 0 .1rem 0.5rem  var(--second-color);
 }
 
 .header.sticky .navigation a{
@@ -163,7 +163,7 @@ section{
 }
 .col h1{
     color: var(--text-color);
-    font-size: 16.2rem;
+    font-size: 14.2rem;
     font-weight: bold;
     line-height: 1.071;
     max-width: 900px;
@@ -180,6 +180,7 @@ section{
     letter-spacing: 0.2rem;
     color: var(--text-color);
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
 }
 
 
@@ -224,7 +225,7 @@ section{
 
 }
 .profile-text h2{
-    font-size: 8rem;
+    font-size: 6rem;
     line-height: 2em;
     font-weight: 500;
 }
@@ -237,6 +238,7 @@ section{
   
 }
 .social-links .title-links h3{
+    font-weight: 500;
     font-size: 2em;
 }
 .social-links .my-links{
@@ -276,7 +278,7 @@ section{
     min-width: 100%;
     justify-items: center;
     font-size: 3rem;
-    gap: 1rem;
+    gap: 6rem;
 
 }
 .my-skills > div{
@@ -288,14 +290,23 @@ section{
 }
 .my-skills h2{
     color: var(--second-color);
-    font-size: 8rem;
+    font-size: 6rem;
 }
 .my-skills h3{
-    font-size: 0.9em;
+    font-size: 1em;
 }
-.description h2{
+.certificates ul{
+    list-style-type: none;
+}
+.certificates ul li a{
+    color: var(--text-color);
+}
+.certificates ul li a:hover , ul li:hover{
     color: var(--second-color);
-    font-size: 5rem;
+}
+.certifications h2{
+    color: var(--second-color);
+    font-size: 6rem;
 }
 
 .icons:hover{
@@ -552,6 +563,10 @@ section{
 }
 
 @media (max-width:617px){
+    .profile-text h2, .social-links h3{
+        font-size: 2em;
+        line-height: 2em;
+    }
     .portifolio .portifolio-container{
         grid-template-columns: 1fr;
     }
@@ -562,9 +577,7 @@ section{
         font-size: 3em;
         letter-spacing: .5rem;
     }
-    .description{
-        display: none;
-    }
+
 }
 @media (max-width:450px){
     html{

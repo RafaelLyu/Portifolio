@@ -48,5 +48,5 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.presentation ' , { origin: 'top' });
-ScrollReveal().reveal('.profile-text h2 , .portifolio h2 , .portifolio-container, .social-links ,form' , { origin: 'bottom' });
-ScrollReveal().reveal('.profile-image  , .icons' , { origin: 'left' });
+ScrollReveal().reveal('.profile-text h2 , .portifolio h2 , .portifolio-container, .social-links ,form , .certificates' , { origin: 'bottom' });
+ScrollReveal().reveal('.profile-image  , .icons , .my-skills h2 , .certifications h2', { origin: 'left' });
